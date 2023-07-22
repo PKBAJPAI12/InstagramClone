@@ -7,15 +7,24 @@
   pointer-events: none;
 }
 .center{
-  display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 10rem;
     
+}
+.imgcss{
+  margin-right:5px;
 }
 .imgLogo{
   display: flex;
     justify-content: center;
     align-items: center;
+}
+.textClass{
+  text-align: center;
+  color: grey;
 }
 .signpWrapper{
 border:1px solid grey;
