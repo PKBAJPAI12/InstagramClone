@@ -14,6 +14,20 @@
     margin-top: 10rem;
     
 }
+.logincenter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10rem;
+  
+}
+.loginCard1{
+  margin-bottom: 0.7rem;
+}
+.linkcenter{
+  text-align: center;
+    display: block;
+}
 .imgcss{
   margin-right:5px;
 }
@@ -22,12 +36,29 @@
     justify-content: center;
     align-items: center;
 }
+.imgcar{
+  height: 590px;
+  width: 441px;
+  margin-top: 4vh;
+  position: relative;
+}
+.car{
+  position: absolute;
+  width: 241px;
+  height: 423px;
+  left: 145px;
+  top: 24px;
+}
 .textClass{
   text-align: center;
   color: grey;
 }
 .signpWrapper{
 border:1px solid grey;
+}
+.loginWrapper{
+  display: flex;
+  justify-content: center;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
