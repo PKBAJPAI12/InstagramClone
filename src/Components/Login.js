@@ -6,7 +6,6 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Alert } from '@mui/material';
 import TextField from '@mui/material/TextField';
-import CloudUploadIcon from '@mui/material/TextField';
 import AppLogo from '../Assets/download (2).jpg'
 import IconImage from '../Assets/upload.png'
 import { Link } from 'react-router-dom';
@@ -78,7 +77,7 @@ export default function Login() {
             <Card className='signpWrapper' sx={{ width: 500 }}>
                 <CardContent>
                     <Typography className='textClass' variant="subtitle1">
-                        Don't have an Account? <Link to="/login">Sign up</Link>
+                        Don't have an Account? <Link to="/signup">Sign up</Link>
                     </Typography>
                 </CardContent>
             </Card>
