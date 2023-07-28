@@ -6,7 +6,6 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Alert } from '@mui/material';
 import TextField from '@mui/material/TextField';
-import CloudUploadIcon from '@mui/material/TextField';
 import AppLogo from '../Assets/download (2).jpg'
 import IconImage from '../Assets/upload.png'
 import {Link} from 'react-router-dom';
